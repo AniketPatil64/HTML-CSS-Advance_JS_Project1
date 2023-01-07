@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(6, 117, 69);
+}
+#image{
+   position:relative;
+   top:50px;
+   left: 120px;
+
+}
+.stopwatch{
+    width: 500px;
+    min-height:200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 50px auto;
+    background-color: darkcyan;
+  
+}
+h1{
+    margin-top: 50px;
+}
+#time,#btns{
+    text-align: center;
+    margin: 10px;
+}
+#start,#stop,#pause{
+    cursor: pointer;
+}
+#start:hover,#stop:hover,#pause:hover{
+    color: rgb(38, 119, 121);
+}
